@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- for css -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<!-- font-awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- FavIcon -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/">
+<link rel="manifest" href="images/site.webmanifest">
+<!-- title -->
+  <title>Nitesh's Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90" style="background-image: url('images/body-bg.png.webp');">
+<!-- Navbar -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/nitesh_nav.png" alt="logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                  <h2 class="text-uppercase position-relative">Hell0</h2>
+                  <h1 class="text-uppercase">I am Nitesh Baviskar</h1>
+                  <h5 class="text-uppercase">Full Stack Developer</h5>
+                  <div class="mt-5">
+                      <a class="main-btn primary-btn" href="#contact">Hire Me</a>
+                      <a class="main-btn secondary-btn ms-4" href="https://drive.google.com/drive/folders/1J939kag3nnTx7DylqC3AOe5KdLf_cDtM?usp=drive_link" target="_blank">Get CV</a>
+                  </div>
+              </div>
+              <div class="col-lg-5 order-lg-2 order-1">
+                  <div class="top-right-img">
+                      <img decoding="async" src="images/propic1.jpg" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Banner section exit -->
+
+  <!-- About section -->
+  <section id="about" class="about_wrapper">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-7 mb-4 mb-lg-0">
+                  <img decoding="async" src="images/about-us.webp" class="img-fluid" alt="About Us">
+              </div>
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                  <h3>let me<br>Introduce about <br>myself</h3>
+                  <p>I am a highly motivated and results-driven professional with a background in technical recruitment, and I am eager to make a transition into a Python Developer role.</p>
+                  <p>I am a highly motivated and results-driven professional with a background in technical recruitment, and I am eager to make a transition into a Python Developer role.</p>
+                  <a href="https://drive.google.com/drive/folders/1J939kag3nnTx7DylqC3AOe5KdLf_cDtM?usp=drive_link" target="_blank" class="main-btn primary-btn mt-4">Download CV</a>
+
+              </div>
+          </div>
+
+      </div>
+  </section>
+  <!-- About section exit -->
+
+  <!-- portfolio Section -->
+  <section id="portfolio" class="portfolio_wrapper">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 text-left mb-md-5 mb-2">
+                  <h2>QUALITY WORK <br>RECENTLY DONE PROJECT</h2>
+              </div>
+          </div>
+          <div class="row">
+              <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one"
+                          aria-selected="true">Popular</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two"
+                          type="button" role="tab" aria-controls="pills-two" aria-selected="true">Latest</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three"
+                          aria-selected="true">Upcoming</button>
+                  </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-one" role="tabpanel"
+                      aria-labelledby="pills-one-tab">
+                      <div class="row">
+                          <div class="col-lg-4 col-sm-6">
+                              <a href="https://itsnitesh007.pythonanywhere.com/" target="_blank">
+                                <div class="portfolio-img">
+                                  <img decoding="async" src="images/worshipkart.PNG" class="img-fluid w-100">
+                                  <div class="overlay"> <i class="fas fa-plus"></i></div>
+                              </div>
+                              <h5 class="mb-0 mt-4">WORSHIPKART (Live/Deployed)</h5>
+                              <p>An E-Commerce Application</p>
+                            </a>
+                          </div>
+                          <div class="col-lg-4 col-sm-6">
+                              <div class="portfolio-img">
+                                <a href="http://django5pm.pythonanywhere.com/" target="_blank">
+                                  <img decoding="async" src="images/emall.PNG" class="img-fluid w-100">
+                                  <div class="overlay"> <i class="fas fa-plus"></i></div>
+                              </div>
+                              <h5 class="mb-0 mt-4">EMALL (Live/Deployed)</h5>
+                              <p>An E-Commerce Application</p>
+                            </a>
+                          </div>
+                          <div class="col-lg-4 col-sm-6">
+                              <div class="portfolio-img">
+
+                                  <img decoding="async" src="images/foody.png" class="img-fluid w-100">
+                                  <div class="overlay"> <i class="fas fa-plus"></i></div>
+                              </div>
+                              <h5 class="mb-0 mt-4">FOODY (In-Progress)</h5>
+                              <p>Online Food Delivery System</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-6">
+                          <a href="https://itsnitesh007.pythonanywhere.com/" target="_blank">
+                            <div class="portfolio-img">
+                              <img decoding="async" src="images/worshipkart.PNG" class="img-fluid w-100">
+                              <div class="overlay"> <i class="fas fa-plus"></i></div>
+                          </div>
+                          <h5 class="mb-0 mt-4">WORSHIPKART (Live/Deployed)</h5>
+                          <p>An E-Commerce Application</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                          <div class="portfolio-img">
+                            <a href="http://django5pm.pythonanywhere.com/" target="_blank">
+                              <img decoding="async" src="images/emall.PNG" class="img-fluid w-100">
+                              <div class="overlay"> <i class="fas fa-plus"></i></div>
+                          </div>
+                          <h5 class="mb-0 mt-4">EMALL (Live/Deployed)</h5>
+                          <p>An E-Commerce Application</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                          <div class="portfolio-img">
+
+                              <img decoding="async" src="images/foody.png" class="img-fluid w-100">
+                              <div class="overlay"> <i class="fas fa-plus"></i></div>
+                          </div>
+                          <h5 class="mb-0 mt-4">FOODY (In-Progress)</h5>
+                          <p>Online Food Delivery System</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-6">
+                          <a href="https://itsnitesh007.pythonanywhere.com/" target="_blank">
+                            <div class="portfolio-img">
+                              <img decoding="async" src="images/worshipkart.PNG" class="img-fluid w-100">
+                              <div class="overlay"> <i class="fas fa-plus"></i></div>
+                          </div>
+                          <h5 class="mb-0 mt-4">WORSHIPKART (Live/Deployed)</h5>
+                          <p>An E-Commerce Application</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                          <div class="portfolio-img">
+                            <a href="http://django5pm.pythonanywhere.com/" target="_blank">
+                              <img decoding="async" src="images/emall.PNG" class="img-fluid w-100">
+                              <div class="overlay"> <i class="fas fa-plus"></i></div>
+                          </div>
+                          <h5 class="mb-0 mt-4">EMALL (Live/Deployed)</h5>
+                          <p>An E-Commerce Application</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                          <div class="portfolio-img">
+
+                              <img decoding="async" src="images/foody.png" class="img-fluid w-100">
+                              <div class="overlay"> <i class="fas fa-plus"></i></div>
+                          </div>
+                          <h5 class="mb-0 mt-4">FOODY (In-Progress)</h5>
+                          <p>Online Food Delivery System</p>
+                      </div>
+                  </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- portfolio Section exit -->
+
+  <!-- Services section -->
+  <section id="services" class="services_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center mb-5">
+                <h2>SERVICES I OFFER</h2>
+                <p>I can offer a wide range of services related to<br
+                        class="d-none d-lg-block">
+                        web application development and backend system development.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card rounded-0 border-0 text-center py-5 px-3">
+                    <div>
+                        <img decoding="async" src="images/services-img/mouse.webp">
+                    </div>
+                    <h5 class="text-uppercase mt-4 mb-3">Web DEVELOPMENT</h5>
+                    <p>I create web applications from scratch or enhance existing ones. I can build a variety of web applications, including e-commerce platforms, portfolio websites, and more.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card rounded-0 border-0 text-center py-5 px-3">
+                    <div>
+                        <img decoding="async" src="images/services-img/ui-ux.webp">
+                    </div>
+                    <h5 class="text-uppercase mt-4 mb-3">CUSTOM DEVELOPMENT</h5>
+                    <p>I can create custom solutions tailored to a client's specific needs. This includes developing unique features and functionalities that aren't available in off-the-shelf solutions.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card rounded-0 border-0 text-center py-5 px-3">
+                    <div>
+                        <img decoding="async" src="images/services-img/website.webp">
+                    </div>
+                    <h5 class="text-uppercase mt-4 mb-3">API Development</h5>
+                    <p>I can build RESTful APIs, which allow different applications to communicate with each other.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card rounded-0 border-0 text-center py-5 px-3">
+                    <div>
+                        <img decoding="async" src="images/services-img/seo.webp">
+                    </div>
+                    <h5 class="text-uppercase mt-4 mb-3">Database Design and Optimization</h5>
+                    <p>Skilled in designing and optimizing relational databases using Django's Object-Relational Mapping (ORM) system.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Services section exit -->
+
+
+  <!-- Footer section -->
+  <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 newsletter text-center px-4">
+                  <div>
+                      <h3 class="text-white">Get in Touch</h3>
+                      <p class="text-white">Feel free to reach out for any career or project-related enquiries.</p>
+                      <p class="text-white"><b>Name:<br></b> Nitesh Baviskar</p>
+                      <p class="text-white"><b>Contact Number:<br></b>9131037787<br> 9109735505</p>
+                      <p class="text-white"><b>Email:</b><br>niteshprofessional007@gmail.com</p>
+                      <p class="text-white">nitesh_magicgo123@rediffmail.com</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container mt-5">
+          <div class="row align-items-center justify-content-center">
+              <div class="col-12 text-center">
+                  <div class="footer-logo mb-3 mb-md-0">
+                      <img decoding="async" src="images/nitesh_nav.png">
+                  </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                  <p class="footer-text text-center my-2">Thanks for taking your precious time to review my work. Lots of <i class="far fa-heart"></i> from <a href="#home">Nitesh...</a>
+                  </p>
+
+              </div>
+          </div>
+      </div>
+  </section>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+
+
+</html>
